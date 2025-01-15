@@ -181,6 +181,9 @@ void ThreatController::runProgram() {
 			saveThreatsToFile(filename);
 			break;
 		}
+		case '0':
+			view.displayMessage("Exiting Program!");
+			break;
 		default:
 			view.displayMessage("Invalid choice. Please try again.");
 		}
